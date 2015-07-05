@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		106CFA141B497EE300BD2C7C /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 106CFA131B497EE300BD2C7C /* demo.png */; };
 		10DB6C221B47FC5B003193C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DB6C211B47FC5B003193C8 /* main.m */; };
 		10DB6C251B47FC5B003193C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DB6C241B47FC5B003193C8 /* AppDelegate.m */; };
 		10DB6C281B47FC5B003193C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DB6C271B47FC5B003193C8 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		10DB6C2D1B47FC5B003193C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DB6C2C1B47FC5B003193C8 /* Images.xcassets */; };
 		10DB6C301B47FC5B003193C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10DB6C2E1B47FC5B003193C8 /* LaunchScreen.xib */; };
 		10DB6C3C1B47FC5C003193C8 /* GlowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DB6C3B1B47FC5C003193C8 /* GlowViewTests.m */; };
+		10DB6C4A1B480032003193C8 /* UIView+GlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DB6C491B480032003193C8 /* UIView+GlowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		106CFA131B497EE300BD2C7C /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 		10DB6C1C1B47FC5B003193C8 /* GlowView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlowView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DB6C201B47FC5B003193C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10DB6C211B47FC5B003193C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +43,8 @@
 		10DB6C351B47FC5C003193C8 /* GlowViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlowViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DB6C3A1B47FC5C003193C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10DB6C3B1B47FC5C003193C8 /* GlowViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlowViewTests.m; sourceTree = "<group>"; };
+		10DB6C481B480032003193C8 /* UIView+GlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GlowView.h"; sourceTree = "<group>"; };
+		10DB6C491B480032003193C8 /* UIView+GlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GlowView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				10DB6C241B47FC5B003193C8 /* AppDelegate.m */,
 				10DB6C261B47FC5B003193C8 /* ViewController.h */,
 				10DB6C271B47FC5B003193C8 /* ViewController.m */,
+				106CFA131B497EE300BD2C7C /* demo.png */,
+				10DB6C481B480032003193C8 /* UIView+GlowView.h */,
+				10DB6C491B480032003193C8 /* UIView+GlowView.m */,
 				10DB6C291B47FC5B003193C8 /* Main.storyboard */,
 				10DB6C2C1B47FC5B003193C8 /* Images.xcassets */,
 				10DB6C2E1B47FC5B003193C8 /* LaunchScreen.xib */,
@@ -202,6 +210,7 @@
 				10DB6C2B1B47FC5B003193C8 /* Main.storyboard in Resources */,
 				10DB6C301B47FC5B003193C8 /* LaunchScreen.xib in Resources */,
 				10DB6C2D1B47FC5B003193C8 /* Images.xcassets in Resources */,
+				106CFA141B497EE300BD2C7C /* demo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DB6C4A1B480032003193C8 /* UIView+GlowView.m in Sources */,
 				10DB6C281B47FC5B003193C8 /* ViewController.m in Sources */,
 				10DB6C251B47FC5B003193C8 /* AppDelegate.m in Sources */,
 				10DB6C221B47FC5B003193C8 /* main.m in Sources */,
@@ -418,6 +428,7 @@
 				10DB6C411B47FC5C003193C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10DB6C421B47FC5C003193C8 /* Build configuration list for PBXNativeTarget "GlowViewTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +437,7 @@
 				10DB6C441B47FC5C003193C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
